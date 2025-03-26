@@ -1,0 +1,67 @@
+/* ----------- LINKED TO HTML VIA <link> TAG ABOVE ----------- */
+
+/* Base styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4e9dc;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* ID Selector - Unique header style */
+#cafe-header {
+    text-align: center;
+    padding: 30px;
+    background-color: #6f4e37;
+    color: white;
+    border-bottom: 5px solid #5d3a1e;
+    margin-bottom: 25px;
+}
+
+#cafe-header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+/* Class Selector - Menu card */
+.menu-card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Image styling */
+.featured-coffee {
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid #6f4e37;
+    margin: 15px 0;
+}
+
+/* Class Selector - Specialty list */
+.specialty-list {
+    background: #fff5ee;
+    padding: 20px;
+    border-left: 4px solid #6f4e37;
+    margin: 20px 0;
+}
+
+.specialty-list li {
+    margin: 12px 0;
+    padding-left: 10px;
+}
+
+/* Tag Selector - Footer */
+.cafe-footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #5d3a1e;
+    color: white;
+    margin-top: 40px;
+    border-radius: 8px;
+}
